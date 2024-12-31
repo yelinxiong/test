@@ -1,0 +1,323 @@
+Loading required package: SeuratObject
+Loading required package: sp
+
+Attaching package: ‘SeuratObject’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, t
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: SeuratObject
+Loading required package: sp
+
+Attaching package: ‘SeuratObject’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, t
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning messages:
+1: In GetAssayData.StdAssay(object = object[[assay]], layer = layer) :
+  data layer is not found and counts layer is used
+2: Not validating Centroids objects 
+3: Not validating Centroids objects 
+4: Not validating FOV objects 
+5: Not validating FOV objects 
+6: Not validating FOV objects 
+7: Not validating FOV objects 
+8: Not validating FOV objects 
+9: Not validating FOV objects 
+10: Not validating Seurat objects 
+Running SCTransform on assay: Spatial
+Running SCTransform on layer: counts
+vst.flavor='v2' set. Using model with fixed slope and excluding poisson genes.
+Variance stabilizing transformation of count matrix of size 17887 by 483415
+Model formula is y ~ log_umi
+Get Negative Binomial regression parameters per gene
+Using 2000 genes, 5000 cells
+Warning messages:
+1: In GetAssayData.StdAssay(object = object[[assay]], layer = layer) :
+  data layer is not found and counts layer is used
+2: Not validating Centroids objects 
+3: Not validating Centroids objects 
+4: Not validating FOV objects 
+5: Not validating FOV objects 
+6: Not validating FOV objects 
+7: Not validating FOV objects 
+8: Not validating FOV objects 
+9: Not validating FOV objects 
+10: Not validating Seurat objects 
+Running SCTransform on assay: Spatial
+Running SCTransform on layer: counts
+Found 1261 outliers - those will be ignored in fitting/regularization step
+
+Second step: Get residuals using fitted parameters for 17887 genes
+vst.flavor='v2' set. Using model with fixed slope and excluding poisson genes.
+Variance stabilizing transformation of count matrix of size 17839 by 622120
+Model formula is y ~ log_umi
+Get Negative Binomial regression parameters per gene
+Using 2000 genes, 5000 cells
+Found 1474 outliers - those will be ignored in fitting/regularization step
+
+Second step: Get residuals using fitted parameters for 17839 genes
+Computing corrected count matrix for 17887 genes
+Computing corrected count matrix for 17839 genes
+Calculating gene attributes
+Wall clock passed: Time difference of 1.152935 hours
+Determine variable features
+Centering data matrix
+  |                                                                              |                                                                      |   0%Calculating gene attributes
+  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
+Getting residuals for block 1(of 97) for counts dataset
+Getting residuals for block 2(of 97) for counts dataset
+Getting residuals for block 3(of 97) for counts dataset
+Getting residuals for block 4(of 97) for counts dataset
+Getting residuals for block 5(of 97) for counts dataset
+Getting residuals for block 6(of 97) for counts dataset
+Getting residuals for block 7(of 97) for counts dataset
+Getting residuals for block 8(of 97) for counts dataset
+Getting residuals for block 9(of 97) for counts dataset
+Getting residuals for block 10(of 97) for counts dataset
+Getting residuals for block 11(of 97) for counts dataset
+Getting residuals for block 12(of 97) for counts dataset
+Getting residuals for block 13(of 97) for counts dataset
+Getting residuals for block 14(of 97) for counts dataset
+Getting residuals for block 15(of 97) for counts dataset
+Getting residuals for block 16(of 97) for counts dataset
+Getting residuals for block 17(of 97) for counts dataset
+Getting residuals for block 18(of 97) for counts dataset
+Getting residuals for block 19(of 97) for counts dataset
+Getting residuals for block 20(of 97) for counts dataset
+Getting residuals for block 21(of 97) for counts dataset
+Getting residuals for block 22(of 97) for counts dataset
+Getting residuals for block 23(of 97) for counts dataset
+Getting residuals for block 24(of 97) for counts dataset
+Getting residuals for block 25(of 97) for counts dataset
+Getting residuals for block 26(of 97) for counts dataset
+Getting residuals for block 27(of 97) for counts dataset
+Getting residuals for block 28(of 97) for counts dataset
+Getting residuals for block 29(of 97) for counts dataset
+Getting residuals for block 30(of 97) for counts dataset
+Getting residuals for block 31(of 97) for counts dataset
+Getting residuals for block 32(of 97) for counts dataset
+Getting residuals for block 33(of 97) for counts dataset
+Wall clock passed: Time difference of 1.482486 hours
+Determine variable features
+Getting residuals for block 34(of 97) for counts dataset
+Getting residuals for block 35(of 97) for counts dataset
+Getting residuals for block 36(of 97) for counts dataset
+Getting residuals for block 37(of 97) for counts dataset
+Getting residuals for block 38(of 97) for counts dataset
+Getting residuals for block 39(of 97) for counts dataset
+Getting residuals for block 40(of 97) for counts dataset
+Getting residuals for block 41(of 97) for counts dataset
+Centering data matrix
+  |                                                                              |                                                                      |   0%Getting residuals for block 42(of 97) for counts dataset
+Getting residuals for block 43(of 97) for counts dataset
+Getting residuals for block 44(of 97) for counts dataset
+  |                                                                              |==================                                                    |  25%Getting residuals for block 45(of 97) for counts dataset
+Getting residuals for block 46(of 97) for counts dataset
+  |                                                                              |===================================                                   |  50%Getting residuals for block 47(of 97) for counts dataset
+Getting residuals for block 48(of 97) for counts dataset
+  |                                                                              |====================================================                  |  75%Getting residuals for block 49(of 97) for counts dataset
+Getting residuals for block 50(of 97) for counts dataset
+  |                                                                              |======================================================================| 100%
+Getting residuals for block 51(of 97) for counts dataset
+Getting residuals for block 52(of 97) for counts dataset
+Getting residuals for block 53(of 97) for counts dataset
+Getting residuals for block 1(of 125) for counts dataset
+Getting residuals for block 54(of 97) for counts dataset
+Getting residuals for block 2(of 125) for counts dataset
+Getting residuals for block 55(of 97) for counts dataset
+Getting residuals for block 3(of 125) for counts dataset
+Getting residuals for block 56(of 97) for counts dataset
+Getting residuals for block 4(of 125) for counts dataset
+Getting residuals for block 57(of 97) for counts dataset
+Getting residuals for block 5(of 125) for counts dataset
+Getting residuals for block 58(of 97) for counts dataset
+Getting residuals for block 6(of 125) for counts dataset
+Getting residuals for block 59(of 97) for counts dataset
+Getting residuals for block 7(of 125) for counts dataset
+Getting residuals for block 60(of 97) for counts dataset
+Getting residuals for block 8(of 125) for counts dataset
+Getting residuals for block 61(of 97) for counts dataset
+Getting residuals for block 62(of 97) for counts dataset
+Getting residuals for block 9(of 125) for counts dataset
+Getting residuals for block 63(of 97) for counts dataset
+Getting residuals for block 10(of 125) for counts dataset
+Getting residuals for block 64(of 97) for counts dataset
+Getting residuals for block 11(of 125) for counts dataset
+Getting residuals for block 65(of 97) for counts dataset
+Getting residuals for block 66(of 97) for counts dataset
+Getting residuals for block 12(of 125) for counts dataset
+Getting residuals for block 67(of 97) for counts dataset
+Getting residuals for block 13(of 125) for counts dataset
+Getting residuals for block 68(of 97) for counts dataset
+Getting residuals for block 14(of 125) for counts dataset
+Getting residuals for block 69(of 97) for counts dataset
+Getting residuals for block 15(of 125) for counts dataset
+Getting residuals for block 70(of 97) for counts dataset
+Getting residuals for block 16(of 125) for counts dataset
+Getting residuals for block 71(of 97) for counts dataset
+Getting residuals for block 17(of 125) for counts dataset
+Getting residuals for block 72(of 97) for counts dataset
+Getting residuals for block 18(of 125) for counts dataset
+Getting residuals for block 73(of 97) for counts dataset
+Getting residuals for block 19(of 125) for counts dataset
+Getting residuals for block 74(of 97) for counts dataset
+Getting residuals for block 20(of 125) for counts dataset
+Getting residuals for block 75(of 97) for counts dataset
+Getting residuals for block 21(of 125) for counts dataset
+Getting residuals for block 76(of 97) for counts dataset
+Getting residuals for block 77(of 97) for counts dataset
+Getting residuals for block 22(of 125) for counts dataset
+Getting residuals for block 78(of 97) for counts dataset
+Getting residuals for block 23(of 125) for counts dataset
+Getting residuals for block 79(of 97) for counts dataset
+Getting residuals for block 24(of 125) for counts dataset
+Getting residuals for block 80(of 97) for counts dataset
+Getting residuals for block 25(of 125) for counts dataset
+Getting residuals for block 81(of 97) for counts dataset
+Getting residuals for block 26(of 125) for counts dataset
+Getting residuals for block 82(of 97) for counts dataset
+Getting residuals for block 27(of 125) for counts dataset
+Getting residuals for block 83(of 97) for counts dataset
+Getting residuals for block 28(of 125) for counts dataset
+Getting residuals for block 84(of 97) for counts dataset
+Getting residuals for block 85(of 97) for counts dataset
+Getting residuals for block 29(of 125) for counts dataset
+Getting residuals for block 86(of 97) for counts dataset
+Getting residuals for block 30(of 125) for counts dataset
+Getting residuals for block 87(of 97) for counts dataset
+Getting residuals for block 31(of 125) for counts dataset
+Getting residuals for block 88(of 97) for counts dataset
+Getting residuals for block 32(of 125) for counts dataset
+Getting residuals for block 89(of 97) for counts dataset
+Getting residuals for block 90(of 97) for counts dataset
+Getting residuals for block 33(of 125) for counts dataset
+Getting residuals for block 91(of 97) for counts dataset
+Getting residuals for block 34(of 125) for counts dataset
+Getting residuals for block 92(of 97) for counts dataset
+Getting residuals for block 35(of 125) for counts dataset
+Getting residuals for block 93(of 97) for counts dataset
+Getting residuals for block 36(of 125) for counts dataset
+Getting residuals for block 94(of 97) for counts dataset
+Getting residuals for block 95(of 97) for counts dataset
+Getting residuals for block 37(of 125) for counts dataset
+Getting residuals for block 96(of 97) for counts dataset
+Getting residuals for block 38(of 125) for counts dataset
+Getting residuals for block 97(of 97) for counts dataset
+Getting residuals for block 39(of 125) for counts dataset
+Getting residuals for block 40(of 125) for counts dataset
+Getting residuals for block 41(of 125) for counts dataset
+Getting residuals for block 42(of 125) for counts dataset
+Getting residuals for block 43(of 125) for counts dataset
+Getting residuals for block 44(of 125) for counts dataset
+Getting residuals for block 45(of 125) for counts dataset
+Getting residuals for block 46(of 125) for counts dataset
+Getting residuals for block 47(of 125) for counts dataset
+Getting residuals for block 48(of 125) for counts dataset
+Getting residuals for block 49(of 125) for counts dataset
+Getting residuals for block 50(of 125) for counts dataset
+Getting residuals for block 51(of 125) for counts dataset
+Getting residuals for block 52(of 125) for counts dataset
+Getting residuals for block 53(of 125) for counts dataset
+Getting residuals for block 54(of 125) for counts dataset
+Getting residuals for block 55(of 125) for counts dataset
+Getting residuals for block 56(of 125) for counts dataset
+Getting residuals for block 57(of 125) for counts dataset
+Getting residuals for block 58(of 125) for counts dataset
+Getting residuals for block 59(of 125) for counts dataset
+Getting residuals for block 60(of 125) for counts dataset
+Getting residuals for block 61(of 125) for counts dataset
+Getting residuals for block 62(of 125) for counts dataset
+Getting residuals for block 63(of 125) for counts dataset
+Getting residuals for block 64(of 125) for counts dataset
+Getting residuals for block 65(of 125) for counts dataset
+Getting residuals for block 66(of 125) for counts dataset
+Getting residuals for block 67(of 125) for counts dataset
+Getting residuals for block 68(of 125) for counts dataset
+Getting residuals for block 69(of 125) for counts dataset
+Getting residuals for block 70(of 125) for counts dataset
+Getting residuals for block 71(of 125) for counts dataset
+Getting residuals for block 72(of 125) for counts dataset
+Getting residuals for block 73(of 125) for counts dataset
+Getting residuals for block 74(of 125) for counts dataset
+Getting residuals for block 75(of 125) for counts dataset
+Getting residuals for block 76(of 125) for counts dataset
+Getting residuals for block 77(of 125) for counts dataset
+Getting residuals for block 78(of 125) for counts dataset
+Getting residuals for block 79(of 125) for counts dataset
+Getting residuals for block 80(of 125) for counts dataset
+Getting residuals for block 81(of 125) for counts dataset
+Getting residuals for block 82(of 125) for counts dataset
+Getting residuals for block 83(of 125) for counts dataset
+Getting residuals for block 84(of 125) for counts dataset
+Getting residuals for block 85(of 125) for counts dataset
+Getting residuals for block 86(of 125) for counts dataset
+Getting residuals for block 87(of 125) for counts dataset
+Getting residuals for block 88(of 125) for counts dataset
+Getting residuals for block 89(of 125) for counts dataset
+Getting residuals for block 90(of 125) for counts dataset
+Getting residuals for block 91(of 125) for counts dataset
+Getting residuals for block 92(of 125) for counts dataset
+Getting residuals for block 93(of 125) for counts dataset
+Getting residuals for block 94(of 125) for counts dataset
+Getting residuals for block 95(of 125) for counts dataset
+Getting residuals for block 96(of 125) for counts dataset
+Getting residuals for block 97(of 125) for counts dataset
+Getting residuals for block 98(of 125) for counts dataset
+Getting residuals for block 99(of 125) for counts dataset
+Getting residuals for block 100(of 125) for counts dataset
+Getting residuals for block 101(of 125) for counts dataset
+Getting residuals for block 102(of 125) for counts dataset
+Getting residuals for block 103(of 125) for counts dataset
+Getting residuals for block 104(of 125) for counts dataset
+Getting residuals for block 105(of 125) for counts dataset
+Getting residuals for block 106(of 125) for counts dataset
+Getting residuals for block 107(of 125) for counts dataset
+Getting residuals for block 108(of 125) for counts dataset
+Getting residuals for block 109(of 125) for counts dataset
+Getting residuals for block 110(of 125) for counts dataset
+Getting residuals for block 111(of 125) for counts dataset
+Getting residuals for block 112(of 125) for counts dataset
+Getting residuals for block 113(of 125) for counts dataset
+Getting residuals for block 114(of 125) for counts dataset
+Getting residuals for block 115(of 125) for counts dataset
+Getting residuals for block 116(of 125) for counts dataset
+Getting residuals for block 117(of 125) for counts dataset
+Getting residuals for block 118(of 125) for counts dataset
+Getting residuals for block 119(of 125) for counts dataset
+Getting residuals for block 120(of 125) for counts dataset
+Getting residuals for block 121(of 125) for counts dataset
+Getting residuals for block 122(of 125) for counts dataset
+Getting residuals for block 123(of 125) for counts dataset
+Getting residuals for block 124(of 125) for counts dataset
+Getting residuals for block 125(of 125) for counts dataset
+Centering data matrix
+  |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
+Finished calculating residuals for counts
+Set default assay to SCT
+There were 36 warnings (use warnings() to see them)
